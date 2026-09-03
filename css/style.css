@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Portail Fournisseur - application styles
+
+   Everything visual comes from the sap_horizon theme. Only a handful of
+   accents are added here, all of them expressed with theme parameters so the
+   app keeps working when the theme changes.
+   ========================================================================== */
+
+.pfRootContainer {
+	height: 100%;
+}
+
+/* Secondary line under a card title or list entry. */
+.pfSubLabel {
+	color: var(--sapContent_LabelColor);
+	font-size: var(--sapFontSmallSize);
+}
+
+/* Filter bar inside the dynamic page header. */
+.pfFilterBar {
+	padding: 0.5rem 0;
+}
+
+.pfFilterField {
+	min-width: 12rem;
+}
+
+/* Status badges sit side by side in a table cell and wrap when narrow. */
+.pfBadges > .sapMObjStatus {
+	margin-inline-end: 0.375rem;
+	margin-block: 0.125rem;
+}
+
+/* Drop zone standing in for a real upload control. */
+.pfUploadBox .sapMPanelContent {
+	border: 0.125rem dashed var(--sapField_BorderColor);
+	border-radius: var(--sapElement_BorderCornerRadius);
+	background-color: var(--sapGroup_ContentBackground);
+}
+
+.pfUserPopoverHeader {
+	border-bottom: 0.0625rem solid var(--sapGroup_ContentBorderColor);
+	padding-bottom: 0.75rem;
+}
+
+/* KPI tiles should stretch to the grid cell they sit in. */
+.sapFGridContainer .sapMGT {
+	width: 100%;
+}

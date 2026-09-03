@@ -1,0 +1,175 @@
+{
+	"_version": "2.0.0",
+	"sap.app": {
+		"id": "portailfournisseur",
+		"type": "application",
+		"i18n": {
+			"bundleUrl": "i18n/i18n.properties",
+			"supportedLocales": [
+				"",
+				"en",
+				"fr"
+			],
+			"fallbackLocale": ""
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://supplier",
+			"favIcon": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.136.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.f": {},
+				"sap.tnt": {},
+				"sap.uxap": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"rootView": {
+			"viewName": "portailfournisseur.view.App",
+			"type": "XML",
+			"id": "app"
+		},
+		"handleValidation": true,
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleUrl": "i18n/i18n.properties",
+					"supportedLocales": [
+						"",
+						"en",
+						"fr"
+					],
+					"fallbackLocale": ""
+				}
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"type": "View",
+				"viewType": "XML",
+				"path": "portailfournisseur.view",
+				"controlId": "pageContainer",
+				"controlAggregation": "pages",
+				"transition": "slide"
+			},
+			"routes": [
+				{
+					"name": "dashboard",
+					"pattern": "",
+					"target": "dashboard"
+				},
+				{
+					"name": "orders",
+					"pattern": "orders",
+					"target": "orders"
+				},
+				{
+					"name": "orderDetail",
+					"pattern": "orders/{orderId}",
+					"target": "orderDetail"
+				},
+				{
+					"name": "documents",
+					"pattern": "documents",
+					"target": "documents"
+				},
+				{
+					"name": "messages",
+					"pattern": "messages",
+					"target": "messages"
+				},
+				{
+					"name": "admin",
+					"pattern": "admin",
+					"target": "admin"
+				},
+				{
+					"name": "buyerDashboard",
+					"pattern": "buyer",
+					"target": "buyerDashboard"
+				},
+				{
+					"name": "buyerOrders",
+					"pattern": "buyer/orders",
+					"target": "buyerOrders"
+				},
+				{
+					"name": "buyerValidations",
+					"pattern": "buyer/validations",
+					"target": "buyerValidations"
+				}
+			],
+			"targets": {
+				"dashboard": {
+					"name": "Dashboard",
+					"id": "dashboard"
+				},
+				"orders": {
+					"name": "Orders",
+					"id": "orders"
+				},
+				"orderDetail": {
+					"name": "OrderDetail",
+					"id": "orderDetail"
+				},
+				"documents": {
+					"name": "Documents",
+					"id": "documents"
+				},
+				"messages": {
+					"name": "Messages",
+					"id": "messages"
+				},
+				"admin": {
+					"name": "Admin",
+					"id": "admin"
+				},
+				"buyerDashboard": {
+					"name": "BuyerDashboard",
+					"id": "buyerDashboard"
+				},
+				"buyerOrders": {
+					"name": "BuyerOrders",
+					"id": "buyerOrders"
+				},
+				"buyerValidations": {
+					"name": "BuyerValidations",
+					"id": "buyerValidations"
+				}
+			}
+		},
+		"flexBundle": false
+	}
+}

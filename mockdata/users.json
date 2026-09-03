@@ -1,0 +1,5 @@
+[
+  { "name": "Paul Martin", "email": "p.martin@example.com", "role": "admin", "status": "active", "orders": "all" },
+  { "name": "Anne Leroy", "email": "a.leroy@example.com", "role": "standard", "status": "active", "orders": "assigned" },
+  { "name": "Hugo Blanc", "email": "h.blanc@example.com", "role": "standard", "status": "invited", "orders": "assigned" }
+]

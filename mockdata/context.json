@@ -1,0 +1,10 @@
+{
+  "today": "2026-08-18",
+  "supplierId": "sup-alpha-precision",
+  "supplierName": "Alpha Précision SAS",
+  "buyerCompany": "Acme Aerospace Group",
+  "personas": {
+    "supplier": { "userName": "Paul Martin", "initials": "PM", "company": "Alpha Précision SAS" },
+    "buyer": { "userName": "Claire Bernard", "initials": "CB", "company": "Acme Aerospace Group" }
+  }
+}

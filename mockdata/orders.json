@@ -1,0 +1,384 @@
+[
+  {
+    "id": "PO-2026-01842",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Aube de turbine HP — Ti6Al4V", "en": "HP turbine blade — Ti6Al4V" },
+    "qty": 120,
+    "unit": "pcs",
+    "plant": { "fr": "Site Nord", "en": "North plant" },
+    "buyer": "Claire Bernard",
+    "dateSent": "2026-07-28",
+    "deliveryRequested": "2026-09-15",
+    "deliveryConfirmed": null,
+    "status": "sent",
+    "needsAR": true,
+    "arDate": null,
+    "delayProposal": null,
+    "lines": [
+      { "ref": "HPB-4471-A", "desc": { "fr": "Aube HP étage 1", "en": "HP blade stage 1" }, "qty": 80, "unit": "pcs" },
+      { "ref": "HPB-4471-B", "desc": { "fr": "Aube HP étage 2", "en": "HP blade stage 2" }, "qty": 40, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Cahier_des_charges_HPB-4471.pdf", "type": "spec", "status": "expected", "date": null }
+    ],
+    "shipment": null,
+    "receptionGap": null,
+    "messages": [
+      {
+        "from": "buyer",
+        "author": "Claire Bernard",
+        "date": "2026-07-28 09:14",
+        "text": {
+          "fr": "Bonjour, voici la commande PO-2026-01842. Merci de confirmer réception et délai sous 48h.",
+          "en": "Hello, here is order PO-2026-01842. Please confirm receipt and lead time within 48h."
+        }
+      }
+    ]
+  },
+  {
+    "id": "PO-2026-01799",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Disque de compresseur — Inconel 718", "en": "Compressor disc — Inconel 718" },
+    "qty": 40,
+    "unit": "pcs",
+    "plant": { "fr": "Site Nord", "en": "North plant" },
+    "buyer": "Claire Bernard",
+    "dateSent": "2026-07-10",
+    "deliveryRequested": "2026-08-10",
+    "deliveryConfirmed": "2026-08-10",
+    "status": "ar_received",
+    "needsAR": false,
+    "arDate": "2026-07-11",
+    "delayProposal": {
+      "proposedDate": "2026-08-28",
+      "comment": {
+        "fr": "Retard fournisseur matière brute Inconel, nouvel arrivage confirmé.",
+        "en": "Raw material (Inconel) delay from our supplier, new batch confirmed."
+      },
+      "status": "pending",
+      "date": "2026-08-14"
+    },
+    "lines": [
+      { "ref": "CD-2201", "desc": { "fr": "Disque compresseur HP", "en": "HP compressor disc" }, "qty": 40, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Certificat_matiere_Inconel718.pdf", "type": "certificate", "status": "submitted", "date": "2026-07-15" },
+      { "name": "Rapport_controle_dimensionnel_CD2201.pdf", "type": "report", "status": "expected", "date": null }
+    ],
+    "shipment": null,
+    "receptionGap": null,
+    "messages": [
+      {
+        "from": "buyer",
+        "author": "Claire Bernard",
+        "date": "2026-07-10 11:02",
+        "text": { "fr": "Commande urgente — merci de prioriser.", "en": "Urgent order — please prioritize." }
+      },
+      {
+        "from": "supplier",
+        "author": "Paul Martin",
+        "date": "2026-07-11 08:40",
+        "text": { "fr": "Bien reçu, AR confirmé pour le 10/08.", "en": "Received, ARC confirmed for Aug 10." }
+      },
+      {
+        "from": "supplier",
+        "author": "Paul Martin",
+        "date": "2026-08-14 16:22",
+        "text": {
+          "fr": "Nous rencontrons un retard sur la matière première, proposition de nouveau délai envoyée.",
+          "en": "We are experiencing a raw-material delay, new lead time proposal sent."
+        }
+      }
+    ]
+  },
+  {
+    "id": "PO-2026-01756",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Carter moteur — Aluminium 7075", "en": "Engine casing — Aluminium 7075" },
+    "qty": 15,
+    "unit": "pcs",
+    "plant": { "fr": "Site Sud", "en": "South plant" },
+    "buyer": "Thomas Petit",
+    "dateSent": "2026-06-15",
+    "deliveryRequested": "2026-09-01",
+    "deliveryConfirmed": "2026-09-01",
+    "status": "in_production",
+    "needsAR": false,
+    "arDate": "2026-06-16",
+    "delayProposal": null,
+    "lines": [
+      { "ref": "EC-9013", "desc": { "fr": "Carter moteur avant", "en": "Front engine casing" }, "qty": 15, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Plan_technique_EC9013_RevB.pdf", "type": "spec", "status": "submitted", "date": "2026-06-18" }
+    ],
+    "shipment": null,
+    "receptionGap": null,
+    "messages": [
+      {
+        "from": "buyer",
+        "author": "Thomas Petit",
+        "date": "2026-06-15 10:00",
+        "text": { "fr": "Commande standard, délai habituel.", "en": "Standard order, usual lead time." }
+      }
+    ]
+  },
+  {
+    "id": "PO-2026-01699",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Ailette de stator — Inconel 625", "en": "Stator vane — Inconel 625" },
+    "qty": 300,
+    "unit": "pcs",
+    "plant": { "fr": "Site Nord", "en": "North plant" },
+    "buyer": "Claire Bernard",
+    "dateSent": "2026-06-02",
+    "deliveryRequested": "2026-08-25",
+    "deliveryConfirmed": "2026-08-22",
+    "status": "shipped",
+    "needsAR": false,
+    "arDate": "2026-06-03",
+    "delayProposal": null,
+    "lines": [
+      { "ref": "SV-3387", "desc": { "fr": "Ailette de stator étage 3", "en": "Stage 3 stator vane" }, "qty": 300, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Certificat_conformite_SV3387.pdf", "type": "certificate", "status": "submitted", "date": "2026-08-08" },
+      { "name": "Rapport_controle_SV3387.pdf", "type": "report", "status": "submitted", "date": "2026-08-08" }
+    ],
+    "shipment": {
+      "tracking": "TRK-0123456784",
+      "carrier": "Global Air Freight",
+      "shipDate": "2026-08-10",
+      "eta": "2026-08-22",
+      "bl": "BL_SV3387_0810.pdf"
+    },
+    "receptionGap": null,
+    "messages": [
+      {
+        "from": "supplier",
+        "author": "Paul Martin",
+        "date": "2026-08-10 14:05",
+        "text": { "fr": "Expédition déclarée, arrivée prévue le 22/08.", "en": "Shipment declared, expected arrival Aug 22." }
+      }
+    ]
+  },
+  {
+    "id": "PO-2026-01650",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Bride de fixation — Acier inoxydable 17-4PH", "en": "Mounting flange — 17-4PH stainless steel" },
+    "qty": 60,
+    "unit": "pcs",
+    "plant": { "fr": "Site Sud", "en": "South plant" },
+    "buyer": "Thomas Petit",
+    "dateSent": "2026-06-20",
+    "deliveryRequested": "2026-07-30",
+    "deliveryConfirmed": "2026-07-30",
+    "status": "delivered",
+    "needsAR": false,
+    "arDate": "2026-06-21",
+    "delayProposal": null,
+    "lines": [
+      { "ref": "MF-1120", "desc": { "fr": "Bride de fixation moteur", "en": "Engine mounting flange" }, "qty": 60, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Certificat_conformite_MF1120.pdf", "type": "certificate", "status": "submitted", "date": "2026-07-25" }
+    ],
+    "shipment": {
+      "tracking": "TRK-0119988771",
+      "carrier": "Global Air Freight",
+      "shipDate": "2026-07-27",
+      "eta": "2026-07-29",
+      "bl": "BL_MF1120_0727.pdf"
+    },
+    "receptionGap": {
+      "type": "quantity",
+      "date": "2026-07-29",
+      "description": {
+        "fr": "58 pièces reçues sur 60 commandées — écart de 2 pièces constaté à réception.",
+        "en": "58 of 60 ordered pieces received — a 2-piece shortfall was found at receipt."
+      }
+    },
+    "messages": [
+      {
+        "from": "supplyChain",
+        "author": "Léa Moreau (Supply Chain)",
+        "date": "2026-07-29 15:40",
+        "text": {
+          "fr": "Écart constaté à réception : 58/60 pièces. Merci de confirmer l'expédition complémentaire.",
+          "en": "Shortfall found at receipt: 58/60 pieces. Please confirm the complementary shipment."
+        }
+      }
+    ]
+  },
+  {
+    "id": "PO-2026-01602",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Vis TC aéronautique — Titane", "en": "Aerospace screws — Titanium" },
+    "qty": 5000,
+    "unit": "pcs",
+    "plant": { "fr": "Site Nord", "en": "North plant" },
+    "buyer": "Claire Bernard",
+    "dateSent": "2026-05-05",
+    "deliveryRequested": "2026-06-10",
+    "deliveryConfirmed": "2026-06-10",
+    "status": "delivered",
+    "needsAR": false,
+    "arDate": "2026-05-06",
+    "delayProposal": null,
+    "lines": [
+      { "ref": "SC-0087", "desc": { "fr": "Vis TC M6 titane", "en": "M6 titanium screw" }, "qty": 5000, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Certificat_conformite_SC0087.pdf", "type": "certificate", "status": "submitted", "date": "2026-06-02" }
+    ],
+    "shipment": {
+      "tracking": "TRK-0108812200",
+      "carrier": "TransEuro Cargo",
+      "shipDate": "2026-06-06",
+      "eta": "2026-06-10",
+      "bl": "BL_SC0087_0606.pdf"
+    },
+    "receptionGap": null,
+    "messages": []
+  },
+  {
+    "id": "PO-2026-01555",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Joint torique — Viton haute température", "en": "O-ring seal — High-temp Viton" },
+    "qty": 800,
+    "unit": "pcs",
+    "plant": { "fr": "Site Sud", "en": "South plant" },
+    "buyer": "Thomas Petit",
+    "dateSent": "2026-08-12",
+    "deliveryRequested": "2026-08-16",
+    "deliveryConfirmed": null,
+    "status": "sent",
+    "needsAR": true,
+    "arDate": null,
+    "delayProposal": null,
+    "lines": [
+      { "ref": "OR-5541", "desc": { "fr": "Joint torique Ø45mm", "en": "O-ring Ø45mm" }, "qty": 800, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Fiche_technique_Viton_OR5541.pdf", "type": "spec", "status": "expected", "date": null }
+    ],
+    "shipment": null,
+    "receptionGap": null,
+    "messages": [
+      {
+        "from": "buyer",
+        "author": "Thomas Petit",
+        "date": "2026-08-12 08:20",
+        "text": {
+          "fr": "Commande urgente ligne d'assemblage — merci d'accuser réception rapidement.",
+          "en": "Urgent order for the assembly line — please acknowledge quickly."
+        }
+      }
+    ]
+  },
+  {
+    "id": "PO-2026-01500",
+    "supplierId": "sup-alpha-precision",
+    "supplierName": "Alpha Précision SAS",
+    "desc": { "fr": "Support hydraulique — Acier 4340", "en": "Hydraulic bracket — 4340 steel" },
+    "qty": 25,
+    "unit": "pcs",
+    "plant": { "fr": "Site Nord", "en": "North plant" },
+    "buyer": "Claire Bernard",
+    "dateSent": "2026-07-18",
+    "deliveryRequested": "2026-08-30",
+    "deliveryConfirmed": "2026-08-30",
+    "status": "in_production",
+    "needsAR": false,
+    "arDate": "2026-07-19",
+    "delayProposal": null,
+    "lines": [
+      { "ref": "HB-7742", "desc": { "fr": "Support hydraulique train avant", "en": "Front landing gear hydraulic bracket" }, "qty": 25, "unit": "pcs" }
+    ],
+    "docs": [
+      { "name": "Plan_technique_HB7742.pdf", "type": "spec", "status": "submitted", "date": "2026-07-20" }
+    ],
+    "shipment": null,
+    "receptionGap": null,
+    "messages": []
+  },
+  {
+    "id": "PO-2026-01830",
+    "supplierId": "sup-beta-techno",
+    "supplierName": "Beta Techno SAS",
+    "desc": { "fr": "Anneau de retenue — Acier maraging", "en": "Retaining ring — Maraging steel" },
+    "qty": 200,
+    "unit": "pcs",
+    "plant": { "fr": "Site Nord", "en": "North plant" },
+    "buyer": "Claire Bernard",
+    "dateSent": "2026-07-22",
+    "deliveryRequested": "2026-08-28",
+    "deliveryConfirmed": "2026-08-28",
+    "status": "ar_received",
+    "needsAR": false,
+    "arDate": "2026-07-23",
+    "delayProposal": null,
+    "lines": [],
+    "docs": [],
+    "shipment": null,
+    "receptionGap": null,
+    "messages": []
+  },
+  {
+    "id": "PO-2026-01820",
+    "supplierId": "sup-gamma-metal",
+    "supplierName": "Gamma Metal SA",
+    "desc": { "fr": "Raccord hydraulique — Inox 316L", "en": "Hydraulic fitting — 316L stainless" },
+    "qty": 150,
+    "unit": "pcs",
+    "plant": { "fr": "Site Sud", "en": "South plant" },
+    "buyer": "Thomas Petit",
+    "dateSent": "2026-08-05",
+    "deliveryRequested": "2026-08-15",
+    "deliveryConfirmed": null,
+    "status": "sent",
+    "needsAR": true,
+    "arDate": null,
+    "delayProposal": null,
+    "lines": [],
+    "docs": [],
+    "shipment": null,
+    "receptionGap": null,
+    "messages": []
+  },
+  {
+    "id": "PO-2026-01810",
+    "supplierId": "sup-beta-techno",
+    "supplierName": "Beta Techno SAS",
+    "desc": { "fr": "Support moteur — Titane", "en": "Engine mount — Titanium" },
+    "qty": 10,
+    "unit": "pcs",
+    "plant": { "fr": "Site Nord", "en": "North plant" },
+    "buyer": "Claire Bernard",
+    "dateSent": "2026-07-02",
+    "deliveryRequested": "2026-08-20",
+    "deliveryConfirmed": "2026-08-18",
+    "status": "shipped",
+    "needsAR": false,
+    "arDate": "2026-07-03",
+    "delayProposal": null,
+    "lines": [],
+    "docs": [],
+    "shipment": {
+      "tracking": "TRK-0188221199",
+      "carrier": "TransEuro Cargo",
+      "shipDate": "2026-08-14",
+      "eta": "2026-08-18",
+      "bl": "BL_ENGMOUNT_0814.pdf"
+    },
+    "receptionGap": null,
+    "messages": []
+  }
+]

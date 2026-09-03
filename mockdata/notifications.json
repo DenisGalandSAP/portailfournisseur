@@ -1,0 +1,38 @@
+[
+  {
+    "sev": "critical",
+    "title": { "fr": "AR en attente — échéance dépassée", "en": "ARC pending — deadline passed" },
+    "desc": {
+      "fr": "PO-2026-01555 : la date de livraison demandée est dépassée.",
+      "en": "PO-2026-01555: the requested delivery date has passed."
+    },
+    "time": { "fr": "Il y a 2 h", "en": "2h ago" }
+  },
+  {
+    "sev": "negative",
+    "title": { "fr": "Écart de réception signalé", "en": "Receipt discrepancy reported" },
+    "desc": {
+      "fr": "PO-2026-01650 : écart de quantité constaté par la Supply Chain.",
+      "en": "PO-2026-01650: quantity discrepancy reported by Supply Chain."
+    },
+    "time": { "fr": "Hier", "en": "Yesterday" }
+  },
+  {
+    "sev": "info",
+    "title": { "fr": "Document mis à jour", "en": "Document updated" },
+    "desc": {
+      "fr": "Cahier des charges qualité EN9100 — nouvelle version disponible.",
+      "en": "EN9100 quality requirements — new version available."
+    },
+    "time": { "fr": "Il y a 2 jours", "en": "2 days ago" }
+  },
+  {
+    "sev": "positive",
+    "title": { "fr": "Commande AR confirmé", "en": "Order ARC confirmed" },
+    "desc": {
+      "fr": "PO-2026-01799 : accusé de réception enregistré.",
+      "en": "PO-2026-01799: acknowledgement of receipt recorded."
+    },
+    "time": { "fr": "Il y a 4 jours", "en": "4 days ago" }
+  }
+]
