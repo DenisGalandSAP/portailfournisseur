@@ -10,6 +10,19 @@
 	height: 100%;
 }
 
+/* Main area: the app-wide system strip (S/4 degraded or unavailable) above
+   the page container, which takes the remaining height. */
+.pfMainArea {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.pfSystemMessage {
+	flex: 0 0 auto;
+	margin: 0.5rem 1rem 0;
+}
+
 /* Secondary line under a card title or list entry. */
 .pfSubLabel {
 	color: var(--sapContent_LabelColor);

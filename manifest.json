@@ -17,7 +17,22 @@
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"dataSources": {}
+		"dataSources": {
+			"supplierService": {
+				"uri": "odata/v4/supplier/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "4.0"
+				}
+			},
+			"buyerService": {
+				"uri": "odata/v4/buyer/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "4.0"
+				}
+			}
+		}
 	},
 	"sap.ui": {
 		"technology": "UI5",
@@ -40,7 +55,8 @@
 				"sap.f": {},
 				"sap.tnt": {},
 				"sap.uxap": {},
-				"sap.ui.layout": {}
+				"sap.ui.layout": {},
+				"sap.ui.unified": {}
 			}
 		},
 		"rootView": {
@@ -53,6 +69,9 @@
 			"compact": true,
 			"cozy": true
 		},
+		"config": {
+			"dataMode": "auto"
+		},
 		"models": {
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
@@ -64,6 +83,24 @@
 						"fr"
 					],
 					"fallbackLocale": ""
+				}
+			},
+			"supplier": {
+				"dataSource": "supplierService",
+				"settings": {
+					"operationMode": "Server",
+					"autoExpandSelect": false,
+					"earlyRequests": false,
+					"groupId": "$auto"
+				}
+			},
+			"buyer": {
+				"dataSource": "buyerService",
+				"settings": {
+					"operationMode": "Server",
+					"autoExpandSelect": false,
+					"earlyRequests": false,
+					"groupId": "$auto"
 				}
 			}
 		},
